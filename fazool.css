@@ -1,0 +1,146 @@
+body {
+    margin: 10px;
+    background-color: white;
+}
+
+#home {
+    margin-top: -0.2cm;
+    margin-left: -1cm;
+    margin-right: -1cm;
+    padding-bottom: 2cm;
+    background-color:lightpink;
+    padding-top: 1cm;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+header {
+    font-size: 30px;
+    float: left;
+    color: rgb(19, 19, 19);
+    padding-left: 2cm;
+
+}
+
+nav {
+    float: right;
+    padding-right: 1cm;
+}
+
+nav button {
+    background-color: #483355;
+    color: lightgray;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1mm;
+    font-size: 20px;
+    border: transparent;
+}
+
+nav button:hover {
+    color: white;
+    font-weight: bolder;
+    background-color: purple;
+
+}
+
+
+#allconversions {
+    display: grid;
+    place-items: center;
+}
+
+figure {
+    float: left;
+    justify-self: auto;
+    width: 200px;
+
+}
+
+img {
+    width: 200px;
+}
+
+figcaption {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+.convert {
+    font-size: 20px;
+    width: fit-content;
+    border: transparent;
+    border-radius: 40px;
+    background-color: lightgreen;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.convert:hover {
+    cursor: pointer;
+}
+
+.b {
+    /* display: flex;  */
+ justify-content: center;
+    align-items: center;
+
+    border-top: solid;
+    border-width: 20px;
+    border-radius: 10px;
+    width: 700px;
+    height: 400px;
+    background-color: #ebdddd;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+}
+
+.temprature {
+    border-color: green;
+    margin-top: 80px;
+}
+
+.weight {
+    border-color: coral;
+}
+
+.distance {
+    border-color: cyan;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+#gohome {
+    width: 40px;
+    height: 40px;
+    background-color: cyan;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 40px;
+}
+
+#gohome img {
+    width: 30px;
+}
+
+footer {
+    background-color: lightpink;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+fieldset{
+    margin-top: 90px;
+    width: 300px;
+}

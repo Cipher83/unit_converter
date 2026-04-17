@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unit conversions</title>
+    <link rel="stylesheet" href="fazool.css">
+
+</head>
+
+<body>
+    <section id="home">
+
+        <header><b>Unit Conversions</b></header>
+        <nav>
+            <a href="#temprature"><button>Temprature</button></a>
+            <a href="#weight"><button>Weight</button></a>
+            <a href="#distance"><button>Distance</button></a>
+        </nav>
+    </section>
+
+    <div id="allconversions">
+        <section id="temprature" class="b temprature">
+            <div style="clear:both;"></div>
+            <div id="tmp">
+                <figure>
+                    <img src="thermo.png" width="200px" alt="flask">
+                    <!-- <figcaption>Conversion of Farenheit and celcius</figcaption> -->
+                </figure>
+                <article>
+                    <fieldset>
+                        <legend>Temprature</legend>
+                        <label for="celcius"></label>Celcius</label><br />
+                        <input type="number" id="celcius"><br />
+                        <label for="forenheight">Foreignheight</label><br>
+                        <input type="number" id="forh"><br /><br>
+                        <button class="convert" id="temprature" onclick=" converttemp()">Convert</button><br />
+
+                    </fieldset>
+                </article>
+                <aside>To convert from Celcius to Farenheight yourself use the formula (C x 9/5)+32</aside>
+            </div>
+        </section>
+        <div style="clear:both;"></div>
+        <section id="weight" class="b weight">
+            <div id="wgt">
+                <figure>
+                    <img src="weight.png" alt="weighing mechine" width="200px">
+                    <figcaption>Kilogram to Pound Conversion</figcaption>
+                </figure>
+                <article>
+                    <fieldset>
+                        <legend>Weight</legend>
+                        <label for="Kilogram">Kilogram</label><br />
+
+                        <input type="number" id="kilogram"><br />
+                        <label for="pound">Pound</label><br>
+                        <input type="number" id="pound"><br /><br>
+                        <button class="convert" id="weight" onclick="convertweight()">Convert</button><br />
+
+                    </fieldset>
+                </article>
+                <aside>
+                    To convert from kilogram to pounds yourself use formula kg x 2.205
+                </aside>
+            </div>
+        </section>
+        
+        <section id="distance" class="b distance">
+            <div id="dst">
+                <figure>
+                    <img src="speedo.png" alt="speed" width="200px">
+                    <figcaption>Kilometer to mile conversion</figcaption>
+                </figure>
+                <article>
+                    <fieldset>
+                        <legend>Distance</legend>
+                        <label for="kilometres">Kilometers</label><br />
+                        <input type="number" id="kilometer"><br />
+                        <label for="miles">miles</label><br />
+                        <input type="number" id="miles"><br /><br>
+                        <button class="convert" id="distance" onclick="convertdist()">Convert</button><br />
+
+                    </fieldset>
+                </article>
+                <aside>To convert kilometers to miles yourself, use this formula replacing the `km` with your
+                    distance in kilometers: km &divide; 1.609</aside>
+            </div>
+        </section>
+        <div style="clear:both;"></div>
+    </div>
+    <div id="gohome">
+        <a href="#home">
+            <img src="home.svg">
+        </a>
+    </div>
+
+
+   
+    <footer>Zeeshan softwere house 2025</footer>
+<script src="fazool.js"></script>
+</body>
+
+</html>
